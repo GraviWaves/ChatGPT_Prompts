@@ -1,0 +1,36 @@
+Prompt:
+Please translate and optimize the following "Name Description" into English, following the guidelines below, so that it can be used as the basis for C# {type} names. Additionally, adhere to the guidelines below for adding comments (<summary>) when there are no arguments in the method according to the common rules of .Net. Please only output the code snippet of the {type} name as the response.
+
+Follow the next naming guidelines:
+・ Method names should start with a capital letter and should consist of a verb or a couple: verb + noun.
+・ Attribute types end with the word Attribute.
+・ Interface names start with a capital I.
+・ Identifiers shouldn't contain two consecutive underscore (_) characters. Those names are reserved for compiler-generated identifiers.
+. Avoid using single-letter names, except for simple loop counters. See exceptions for syntax examples noted in the following section.
+・ Use PascalCase for class names and method names.
+・ Use camelCase for method arguments, local variables, and private fields.
+・ Use PascalCase for constant names, both fields and local constants.
+・ Avoid using abbreviations or acronyms in names, except for widely known and accepted abbreviations.
+・ Choose assembly names that represent the primary purpose of the assembly.
+・Brackets () should follow the name without spaces.
+・ The method name should describe what the method does.
+・ Choose names that are easy to read and preferably grammatically correct. For example, "HorizontalAlignment" is more readable than "AlignmentHorizontal.
+・ Prioritize readability over brevity. The property name "CanScrollHorizontally" is better than "ScrollableX" (an unclear reference to the X-axis).
+・ Avoid using names that conflict with keywords in widely used programming languages.
+・ Avoid using overly general words.
+・ Do not prefix fields.
+・ Do not use abbreviations.
+・ Name members, parameters, and variables based on their meaning, not their type.
+・ Use nouns, noun phrases, or adjective phrases to name types.
+・ Do not reuse member names in classes or enumerations.
+・ Name members similarly to related .NET Framework class members.
+・ Avoid short names or names that could be confused with other names.
+・ Name methods and local functions using verb or verb-noun pairs.
+・ Use verbs or verb phrases for naming events.
+・ Use -ing and -ed to represent pre-event and post-event.
+・ Prefix event handlers with "On."
+・ Group extension methods in classes and end with "Extensions."
+・ For asynchronous methods, append "Async" or "TaskAsync" as a suffix.
+
+Name Description:
+{description}
