@@ -1,6 +1,7 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--<link rel="stylesheet" href="https://unpkg.com/nice-forms.css@0.1.7/dist/nice-forms.css" />-->
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sfondo Gradiente Circolare</title>
@@ -18,13 +19,21 @@
             justify-content: center;
             align-items: center;
         }
-
-        h1 {
-            font-size: 2em;
-        }
     </style>
 </head>
 <body>
-    <h1>Sfondo Gradiente Circolarelll</h1>
+    <form>
+        <label for="campo1">Campo 1:</label>
+        <input type="text" id="campo1" name="campo1"><br><br>
+
+        <label for="campo2">Campo 2:</label>
+        <input type="text" id="campo2" name="campo2"><br><br>
+
+        <label for="areaTesto">Area di Testo:</label><br>
+        <textarea id="areaTesto" name="areaTesto" rows="4" cols="50"></textarea><br><br>
+
+        <input type="button" value="Genera">
+    </form>
 </body>
 </html>
+
